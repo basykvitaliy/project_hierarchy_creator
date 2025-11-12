@@ -1,10 +1,10 @@
 
 
 <idea-plugin>
-    <id>com.example.projectstructurecreator</id>
+    <id>com.bytenco.projectstructurecreator</id>
     <name>Project Structure Creator</name>
-    <version>1.0.0</version>
-    <vendor email="you@example.com">Your Name</vendor>
+    <version>1.0.1</version>
+    <vendor email="bytenco23@gmail.com">Bytenco</vendor>
 
     <description>
         Project Structure Creator is a simple IntelliJ/Android Studio plugin that automatically generates a clean folder hierarchy inside your Android project — directly next to your MainActivity (in the same package).
