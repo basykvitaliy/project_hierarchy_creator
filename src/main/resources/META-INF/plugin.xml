@@ -1,0 +1,39 @@
+
+
+<idea-plugin>
+    <id>com.example.projectstructurecreator</id>
+    <name>Project Structure Creator</name>
+    <version>1.0.0</version>
+    <vendor email="you@example.com">Your Name</vendor>
+
+    <description>
+        Project Structure Creator is a simple IntelliJ/Android Studio plugin that automatically generates a clean folder hierarchy inside your Android project — directly next to your MainActivity (in the same package).
+
+        It helps you quickly scaffold a standard structure like:
+        - data/
+        - domain/
+        - ui/
+        - screens/
+        - components/
+
+        Perfect for initializing new Android modules or organizing feature-based architecture.
+        Compatible with IntelliJ IDEA and Android Studio 2024+.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="CreateStructureAction"
+                class="com.example.structureplugin.CreateStructureAction"
+                text="Create Project Structure"
+                description="Generates a basic folder hierarchy">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+    <change-notes>
+        Version 1.0.0:
+        - Added automatic folder generation near MainActivity.kt.
+        - Supports Kotlin, Java, and Kotlin+Java source sets.
+        - Works with Android Studio 2024+ and IntelliJ 2024.2+.
+    </change-notes>
+</idea-plugin>
