@@ -24,7 +24,7 @@
 
     <actions>
         <action id="CreateStructureAction"
-                class="com.example.structureplugin.CreateStructureAction"
+                class="com.bytenco.structureplugin.CreateStructureAction"
                 text="Create Project Structure"
                 description="Generates a basic folder hierarchy">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
